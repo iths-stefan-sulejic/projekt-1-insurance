@@ -1,0 +1,15 @@
+.navigation{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 200px 30px 200px;
+}
+
+li a{
+    text-decoration: none;
+    color: gray;
+}
+
+.contact a{
+    color: black;
+}

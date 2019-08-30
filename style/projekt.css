@@ -1,44 +1,118 @@
 body{
-    margin: 0px 50px 0px 50px; /* verso orario da top a left*/
+    margin: 0px 200px 0px 200px; /* verso orario da top a left*/
     display: grid;
-    min-height: 100vh;
-
-
+    min-height: 50vh;
+    background-color: #F0EFEF;
 }
 
 .container1{
-
-    min-height: 100vh;
+    min-height: 50vh;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 50px 50px;
+    grid-template-rows: 300px 300px;
     grid-template-areas:
     "top1 top2"
     "top1 top3"
-
 }
 
 .top1{
     grid-area: top1;
-    background-color: blueviolet;
+    background-color: lightblue;
 }
-.top2{}
+.top2{
+    grid-area: top2;
+    background-color: orangered;
+}
 
 .top3{
     grid-area: top3;
-    background-color: red;
-}
-nav{
+    background-color: orange;
 }
 
-main{
+.navigation{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 200px 30px 200px;
+}
 
+li a{
+    text-decoration: none;
+    color: gray;
+}
+
+.home a{
+    color: black;
+}
+
+.container2{
+    /* min-height: 50vh; */
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 600px;
+    grid-template-areas:
+    "gray"
+    "orange"
+}
+
+.gray{
+    grid-area: gray;
+    background-color: #A4A3A3;
+}
+
+.orange{
+    display: grid;
+    grid-template-rows: 600px;
+    grid-area: orange;
+    background-color: orange;
+}
+
+.boxes{
+    /* min-height: 50vh; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 350px 350px;
+    grid-template-areas:
+    "box1 box2 box3"
+    "box4 box5 box6"
+}
+
+.box1{
+    grid-area: box1;
+    background-color: lightblue;
+}
+
+.box2{
+    grid-area: box2;
+    background-color: white;
+}
+
+.box3{
+    grid-area: box3;
+    background-color: #F0EFEF;
+}
+
+.box4{
+    grid-area: box4;
+    background-color: white;
+}
+
+.box5{
+    grid-area: box5;
+    background-color: orangered;
+}
+
+.box6{
+    grid-area: box6;
+    background-color: white;
 }
 
 .bottom{
-
+    height: 80px;
+    background-color: #A4A3A3;
 }
 
 footer{
-
+    height: 300px;
+    background-color: gray;
 }
