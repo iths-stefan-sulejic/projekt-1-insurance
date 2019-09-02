@@ -1,8 +1,36 @@
+body{
+    margin: 0px;
+    display: grid;
+    min-height: 50vh;
+    background-color: #F0EFEF;
+}
+
+.container1{
+    min-height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 600px;
+    grid-template-areas:
+    "top"
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: top;
+    background-color: lightblue;
+}
+
+.top-h1{
+    font-size: 80px;
+}
+
 .navigation{
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    margin: 30px 200px 30px 200px;
+    margin: 50px 400px 50px 400px;
 }
 
 li a{
@@ -12,4 +40,54 @@ li a{
 
 .contact a{
     color: black;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 800px 600px;
+    grid-template-areas:
+    "main1"
+    "main2"
+}
+
+.main1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    grid-area: main1;
+    background-color: #A4A3A3;
+}
+
+.main-gray-h1{
+    margin: 100px 0px 0px 70px;
+    font-size: 80px;
+    width: 700px;
+    color: white;
+}
+
+.main-gray-p{
+    margin: 100px 0px 0px 50px;
+    font-size: 20px;
+    color: white;
+}
+
+.email{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    margin: 150px 0px 0px 0px;
+}
+
+.main2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    grid-area: main2;
+    background-color: black;
+}
+
+footer{
+    height: 300px;
+    background-color: gray;
 }
