@@ -93,7 +93,6 @@ li a{
 }
 
 .container2{
-    /* min-height: 50vh; */
     display: grid;
     grid-template-columns: repeat(1,1fr);
     grid-template-rows: 600px;
@@ -111,9 +110,6 @@ li a{
 }
 
 .main-gray-h1{
-    /* display: flex;
-    justify-content: flex-end;
-    align-items: flex-end; */
     margin: 100px 0px 0px 100px;
     width: 400px;
     font-size: 50px;
@@ -142,7 +138,6 @@ li a{
 }
 
 .boxes{
-    /* min-height: 50vh; */
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 350px 350px;
