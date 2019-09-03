@@ -1,0 +1,263 @@
+body{
+    margin: 20px; /* verso orario da top a left*/
+  
+    min-height: 100vh;
+    background-color: lightgrey;
+
+
+}
+
+.wrapper{
+    width: 70%;
+    margin: auto;
+}
+
+.container1{
+    height: 800px;
+    display: grid;
+    font-weight: bold;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-rows: 400px 400px;
+    grid-template-areas:
+    "top1 top2"
+    "top1 top3";
+
+}
+
+.top1{
+    background-color:lightblue;
+    grid-area: top1;
+    background-image: url(./images/family.png);
+    background-size: 70%;
+    height: 800px;
+    background-position: bottom;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    font-weight: bold;
+}
+
+.topleft {
+    font-size: 3.2rem;
+    margin: 20% 20% 4% 20%;
+}
+
+.parleft {
+    font-size: 1.3rem;
+    padding: 0px;
+    margin: 0px 20% 0px 20%;
+    line-height: 1.6;
+}
+span{
+color: white;
+
+}
+.top2{
+    text-align: center;
+    padding: 150px 0;
+    background-color: darkorange;
+    grid-area: top2;
+    height: 400px;
+}
+
+.top3{
+    text-align: center;
+    padding: 150px 0;
+    grid-area: top3;
+    background-color:gold;
+}
+
+.bottone1 {
+    display: block;
+    border-radius: 60px;
+    margin: 20%;
+}
+nav{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin: 10px;
+}
+a{
+    margin: 50px;
+}
+a:link {
+    text-decoration: none;
+}
+
+.white{
+    color: white;
+    font-size: 2rem;
+}
+
+.container2{
+    position: static;
+}
+
+.grey {
+    height: 800px;
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* z-index: 0; */
+}
+
+.left{
+    margin: 20%;
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+}
+
+.right {
+    margin: 20%;
+    font-size: 1.4rem;
+    font-weight: bold;
+    
+}
+.gold {
+    position: static;
+    height: 800px;
+    text-align: center;
+    background-color: gold;
+    /* z-index: 0; */
+}
+
+.about {
+    font-size: 4rem;
+    padding: 300px 300px 20px 300px;
+    margin:0px;
+    color: white;
+    vertical-align: middle;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding: 10px 300px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -200px;
+    height: 0px;
+    background-color: beige;
+    /* z-index: 1; */
+
+}
+
+
+.photo{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.photo section:first-child{
+    height: 40%;
+    width: 95%;
+    margin: auto;
+    position: relative;
+    top: -20px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: 50% 90%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+}
+
+#imagea{
+    background-image: url(./images/child.png);
+    background-color: lightblue;
+    
+}
+
+#imageb {
+    background-color: gold;
+    background-image: url(./images/adult.png);
+}
+
+#imagec{
+    background-color: darkorange;
+    background-image: url(./images/old.png);
+}
+
+.bottimage{
+    color: grey;
+    font-weight: bold;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 800px;
+    width: 100%;
+    justify-content: stretch;
+
+}
+
+.grid > section {
+    font-size: 3rem;
+    width: 100%;
+    height: 100%;
+    color: grey;
+    font-weight: bold;
+    
+
+}
+
+.bottbox:nth-of-type(1){
+    background-color: lightblue;
+}
+
+#firstbox {
+    font-size: 3rem;
+    color: black;
+    padding: 100px;
+}
+
+
+.bottbox:nth-of-type(5){
+    background-color: darkorange;
+}
+.bottbox:nth-of-type(2n) {
+    background-color: white;
+}
+
+.work {
+    font-size: 1.8rem;
+    padding: 20% 10%;
+    text-align: center;
+    color: black;
+}
+
+
+footer{
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    margin: 0px;
+    background-color: lightgrey;
+
+}
+
+.arrow{
+    margin: 5px;
+    vertical-align: text-bottom;
+    position: static;
+}
+
+.up{
+    margin:0px;
+}
+
+.bottom {
+    height: 300px;
+    background-color: grey;
+}
