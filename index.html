@@ -5,63 +5,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="style/projekt.css"> <!--Här länkas css filen-->
+    <link rel="stylesheet" href="progettos.css">
 </head>
 <body>
-    <div class="container1"> <!-- Första grid container -->
-        <section class="top1"> <!-- Blåa lådan på topen -->
-            <h1 class="top-lightblue-h1">We've got you Covered.</h1>
-            <p class="top-lightblue-p">Together we keep eachother safe at home or at work. 
-                                    By paying a tiny fee a day, you are fully insured all day long. 
-                                    You get it all for as little as
-                <span class="white-text">$0.4 per pay.</span>
-            </p>
-        </section>
+    <div class= "wrapper">
+        <div class="container1"> <!--outern container-->
 
-        <section class="top2"> <!-- Orangeröda lådan på topen -->
-            <p class="top-orangered-p">What do we have to offer?</p>
-            <h1 class="top-orangered-h1">Learn more</h1>
-        </section>
-
-        <section class="top3"> <!-- Orange lådan på topen -->
-            <p class="top-orange-p">What are you waiting for?</p>
-            <h1 class="top-orange-h1">Join today</h1>
-        </section>
-    </div>
-
-    <nav> <!-- Här är en navigationsmenyn-->
-        <ul class="navigation"> 
-            <li class="home"><a href="index.html">Home</a></li>
-            <li class="offer"><a href="#">Our offer</a></li>
-            <li class="us"><a href="#">Why us</a></li>
-            <!-- <li class="contact"><a href="contact.html">Contact</a></li> -->
-        </ul>
-    </nav>
-
-    <div class="container2"> <!-- Här börjar andra grid container-->
-        <main class="gray"> <!-- Gråa boxen i mitten-->
-            <h1 class="main-gray-h1">Your personal financial safety net online.</h1>
-            <section class="button">
-                <button class="main-join">JOIN NOW!</button>
+               <article class="top1"> 
+                   <h1 class="topleft">We've got you Covered</h1>
+                   <p class="parleft">Together we keep each other safe at home or at work. 
+                    By paying a tiny fee a day, you are fully insured all day long. 
+                    You get all for as little as <span>$0.4 per day</span></p>
+                    <button class="bottone1">JOIN NOW</button>
+                </article>
+            <section class="top2">
+                <p>What do we offer?</p>
+                <a class="white" href="">Learn more</a>
             </section>
-
-            <p class="main-gray-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias excepturi consequatur, nulla laborum adipisci fugiat officia ipsam hic repellat asperiores eos saepe blanditiis eum, earum voluptatum! Minima itaque sed ab sint voluptas facere doloremque, vitae perspiciatis nostrum enim. Veniam magnam modi aspernatur. Facilis unde sunt reiciendis quod cum? Ut facilis cumque, obcaecati numquam ad ipsam.</p>
-        </main>
-
-        <main class="orange"></main> <!-- Orange boxen i mitten-->
-
-        <main class="boxes"> <!-- Dem 6 små boxar på botten av main-->
-            <section class="box1"></section>
-            <section class="box2"></section>
-            <section class="box3"></section>
-            <section class="box4"></section>
-            <section class="box5"></section>
-            <section class="box6"></section>
-        </main>
-
-        <section class="bottom"></section> <!-- Take me up again!-->
+            <section class="top3">
+                <p>What are you waiting for?</p>
+                <a class="white" href="">Join today</a></section>
+        </div>
         
-        <footer></footer> 
+        <nav>
+            <a href="">Home</a>
+            <a href="">Our offer</a>
+            <a href="">Why us</a>                
+            <a href="contact.html">Contact</a>
+        </nav>
+        <main class="container2"> <!--container with the photos-->
+            <div class="grey">
+                <article class="left">
+                    Your personal financial safety net online.
+                    <button class="bottone1">JOIN NOW</button>
+                </article>
+                <article class="right">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Ut tempor ligula vel felis cursus egestas. 
+                        Etiam consectetur finibus facilisis. 
+                        Proin accusam auctor purus, quis finibus tellus accusam id.
+                        Quisque tellus elit, ullamcorper sed mollis ac,
+                        interdum vel enim. Pellentesque congue felis eget lorem tempor blandit.
+                        Mauris hendrerit ullamcorper ex quis congue donec vel finibus libero.
+                </article>
+            </div>
+            <div class="box">
+                <article class="photo">
+                    <section id="imagea"></section>
+                    <h1>Children</h1>
+                    <section class="bottimage">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Ut tempor ligula vel felis cursus egestas. 
+                            Etiam consectetur finibus facilisis. 
+                            Proin accusam auctor purus, quis finibus tellus accusam id.</p>
+    
+                    </section>
+                </article>
+                <article class="photo">
+                        <section id="imageb"></section>
+                        <h1>Just right</h1>
+                        <section class="bottimage">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Ut tempor ligula vel felis cursus egestas. 
+                                Etiam consectetur finibus facilisis. 
+                                Proin accusam auctor purus, quis finibus tellus accusam id.</p>
+        
+                        </section>
+                </article>
+                <article class="photo">
+                        <section id="imagec"></section>
+                        <h1>Old fart</h1>
+                        <section class="bottimage">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Ut tempor ligula vel felis cursus egestas. 
+                                Etiam consectetur finibus facilisis. 
+                                Proin accusam auctor purus, quis finibus tellus accusam id.</p>
+                        </section>
+                </article>
+            </div>
+            <div class="gold">
+                <h1 class="about">About us</h1>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate 
+                    velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, 
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="grid">
+                <section class="bottbox">
+                    <p id="firstbox">How does it work?</p>
+                </section>
+                <section class="bottbox">01
+                    <p class="work">Answer few questions about yourself</p>
+                </section>
+                <section class="bottbox">02
+                    <p class="work">Choose a plan. <br> Get a quote</p>
+                </section>
+                <section class="bottbox">03
+                    <p class="work">Answer some questions about your medical History</p>
+                </section>
+                <section class="bottbox">04
+                    <p class="work"> Wait 90 sec to get approved</p>
+                </section>
+                <section class="bottbox">05
+                    <p class="work">Done!</p>
+                </section>
+            </div>
+        </main>
+        
+        
+        <div class="container3">
+            <footer>∧ <br>
+                <a class="up" href="Progetto.html">Take me up again!</a>
+            </footer>
+            <section class="bottom"></section>
+        </div>
     </div>
+    
 </body>
 </html>
